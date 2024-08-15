@@ -32,9 +32,9 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: gcr.io/google-samples/microservices-demo/frontend:v0.9.0
+          # image: gcr.io/google-samples/microservices-demo/frontend:v0.9.0
           # image: dcourts/gcp-microsvc-frontend:green.2
-          # image: dcourts/gcp-microsvc-frontend:green.2.amd64
+          image: dcourts/gcp-microsvc-frontend:green.2.amd64
           ports:
           - containerPort: 8080
           readinessProbe:
